@@ -1,0 +1,19 @@
+{
+  "name": "strona-treningowa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/freshing/strona-treningowa.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/freshing/strona-treningowa/issues"
+  },
+  "homepage": "https://github.com/freshing/strona-treningowa#readme"
+}
