@@ -40,6 +40,22 @@ class LandingPageDown extends React.Component {
   render() {
     return (
       <div className="landing-down">
+        <div className="">
+          <div>
+            Dlaczego warto
+            skorzystać z naszych
+            usług?
+          </div>
+          <div>
+            Lorem ipsum dolor sit amet.
+          </div>
+          <div>
+            <a href="#"><div className="landing-button">SKONTAKTUJ SIĘ Z NAMI</div></a>
+          </div>
+        </div>
+        <div>
+
+        </div>
       </div>
     )
   }
