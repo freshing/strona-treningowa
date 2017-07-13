@@ -1,5 +1,15 @@
-.footer {
-  width: 1600px;
+.footer-up {
+  height: 706px;
+  background-image: url('../assets/footer.png');
+  object-fit: contain;
+}
+
+.footer-mid {
+  height: 706px;
+  background-color: #453d5f;
+}
+
+.footer-down {
   height: 200px;
   background-color: #312f38;
 }
