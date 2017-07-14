@@ -32,15 +32,3 @@ a{
   font-weight: bold;
   color: #6370c5;
 }
-
-.landing-button {
-  padding: 25px;
-  border-radius: 40px;
-  background-color: #6370c5;
-  text-align: center;
-  display: inline-block;
-  font-size: 13px;
-  font-weight: 600;
-  letter-spacing: 1px;
-  color: #ffffff;
-}

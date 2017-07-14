@@ -7,26 +7,22 @@ module.exports = class Header extends React.Component {
   render() {
     return (
       <div className="header">
-        <div className="buttons">
-          <a className="button-navigate" href="#">Strona główna</a>
-          <a className="button-navigate" href="#">Podstrona</a>
-          <a className="button-navigate" href="#">Podstrona</a>
-          <a className="button-navigate" href="#"><img src={search} /></a>
+        <div className="header_navigate">
+          <a className="button_navigate" href="#">Strona główna</a>
+          <a className="button_navigate" href="#">Podstrona</a>
+          <a className="button_navigate" href="#">Podstrona</a>
+          <a className="button_navigate" href="#"><img src={search} /></a>
         </div>
-        <div className="header-space">
+        <div className="header_space">
         </div>
-        <div className="header-text header-text--big">
+        <div className="header_text header_text--big">
           Miejskie Centrum Informacji Społecznej w Krakowie
         </div>
-        <div className="header-text header-text--small">
+        <div className="header_text header_text--small">
           miejsce, w którym uzyskasz informację i pomoc w zakresie szeroko rozumianej polityki społecznej.
         </div>
-        <a href="#"><div className="header_button">SKONTAKTUJ SIĘ Z NAMI</div></a>
+        <a href="#" onClick={this.props.onClick}><div className="button_contact button_contact--light">SKONTAKTUJ SIĘ Z NAMI</div></a>
       </div>
     )
   }
-}
-
-function onClick(event){
-  event.preventDefault();
 }

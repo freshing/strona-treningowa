@@ -1,6 +1,18 @@
 .content {
   padding: 50px;
-  height: auto;
+  height: 1500px;
   font-family: 'Raleway', sans-serif;
-  box-sizing: border-box;
+  border-width: medium;
+  border-style: solid;
+
+}
+
+.content_container {
+  width: 45%;
+  float: left;
+  margin: auto;
+}
+
+.content_element {
+
 }

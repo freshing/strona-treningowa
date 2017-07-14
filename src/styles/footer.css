@@ -1,12 +1,19 @@
 .footer {
   height: 200px;
   background-color: #312f38;
-  text-align: right;
   padding-top: auto;
-  padding-bottom: 40px;
-  padding-right: 50px;
+  padding-right: 100px;
   font-family: 'Raleway', sans-serif;
   box-sizing: border-box;
+  display: flex;
+  justify-content:flex-end;
+  align-items:center;
+}
+
+.footer_navigate {
+  display: flex;
+  justify-content:flex-end;
+  align-items:center;
 }
 
 .footer--back {
@@ -14,4 +21,9 @@
   height: 60px;
   border-radius: 5px;
   border: solid 2px #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  margin: 50px;
 }

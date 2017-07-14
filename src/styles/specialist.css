@@ -9,13 +9,6 @@ src: url('../assets/Snickles.ttf');
     }
   }
 
-h1{
-  font-family: 'Snickles', sans-serif;;
-  font-size: 36px;
-  color: #ffffff;
-  float: right;
-}
-
 .specialist {
   height: 706px;
   background-image: url('../assets/specialist.png');
@@ -30,10 +23,6 @@ h1{
   font-weight: bold;
 }
 
-.specialist_title {
-  
-}
-
 .specialist_description {
   text-align: left;
   width: 43%;
@@ -42,19 +31,4 @@ h1{
   font-size: 16px;
   line-height: 1.88;
   display: inline-block;
-}
-
-.specialist_button {
-  border-radius: 40px;
-  background-color: #ffffff;
-  font-size: 13px;
-  font-weight: 600;
-  letter-spacing: 1px;
-  text-align: center;
-  color: #6370c5;
-  padding: 25px;
-  margin-top: 40px;
-  display: inline-block;
-  border-style: solid;
-  border-width: 5px;
 }

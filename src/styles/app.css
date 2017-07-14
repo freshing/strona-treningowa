@@ -2,3 +2,46 @@
   width: 90%;
   margin: auto;
 }
+
+.button_contact{
+  padding: 25px;
+  border-radius: 40px;
+  text-align: center;
+  display: inline-block;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-top: 40px;
+}
+
+.button_contact--dark {
+  background-color: #6370c5;
+  color: #ffffff;
+}
+
+.button_contact--light {
+  background-color: #ffffff;
+  color: #6370c5;
+}
+
+.button_navigate {
+  font-size: 15px;
+  font-weight: 600;
+  color: #ffffff;
+  text-decoration: none;
+  margin: 30px;
+  display: inline-block;
+}
+
+.snickles{
+  font-family: 'Snickles', sans-serif;;
+  font-size: 36px;
+}
+
+.snickles--light{
+  color: #ffffff;
+}
+
+.snickles--dark{
+  color: #6b66bf;
+}

@@ -6,9 +6,7 @@ module.exports = class Specialist extends React.Component {
   render() {
     return (
       <div className="specialist">
-        <div className="specialist_title">
-          Poznaj nasze <h1>SuperSpecjalistki</h1>
-        </div>
+          Poznaj nasze <span className="snickles snickles--light">SuperSpecjalistki</span>
         <div>
           <div className="specialist_description">
             Posiada wieloletnie doświadczenie w pracy z osobami niepełnosprawnymi
@@ -22,13 +20,9 @@ module.exports = class Specialist extends React.Component {
           </div>
         </div>
         <div >
-          <a href="#" className="specialist_button"><div >SKONTAKTUJ SIĘ Z NAMI</div></a>
+          <a href="#" className="button_contact button_contact--light" onClick={this.props.onClick}><div >SKONTAKTUJ SIĘ Z NAMI</div></a>
         </div>
       </div>
     )
   }
-}
-
-function onClick(event){
-  event.preventDefault();
 }

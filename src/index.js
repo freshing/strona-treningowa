@@ -13,14 +13,19 @@ class App extends React.Component {
   render() {
     return (
       <div className="main">
-        <Header />
-        <About />
-        <Content />
-        <Specialist />
+        <Header onClick={this.onClick}/>
+        <About onClick={this.onClick}/>
+        <Content onClick={this.onClick}/>
+        <Specialist onClick={this.onClick}/>
         <Contact />
         <Footer />
       </div>
     )
+  }
+  onClick(event){
+    event.preventDefault();
+    var element = document.getElementsByClassName("contact");
+    window.scrollTo(0, element[0].offsetTop);
   }
 }
 
