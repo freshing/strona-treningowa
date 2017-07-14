@@ -26,3 +26,7 @@ module.exports = class Header extends React.Component {
     )
   }
 }
+
+function onClick(event){
+  event.preventDefault();
+}

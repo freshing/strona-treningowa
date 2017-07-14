@@ -1,15 +1,17 @@
-.footer-up {
-  height: 706px;
-  background-image: url('../assets/footer.png');
-  object-fit: contain;
-}
-
-.footer-mid {
-  height: 706px;
-  background-color: #453d5f;
-}
-
-.footer-down {
+.footer {
   height: 200px;
   background-color: #312f38;
+  text-align: right;
+  padding-top: auto;
+  padding-bottom: 40px;
+  padding-right: 50px;
+  font-family: 'Raleway', sans-serif;
+  box-sizing: border-box;
+}
+
+.footer--back {
+  width: 60px;
+  height: 60px;
+  border-radius: 5px;
+  border: solid 2px #ffffff;
 }

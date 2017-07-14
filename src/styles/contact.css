@@ -1,0 +1,33 @@
+.contact {
+  height: 706px;
+  background-color: #453d5f;
+  text-align: center;
+  padding: 5% 10%;
+  box-sizing: border-box;
+}
+
+.contact_column {
+  width: 25%;
+  float: left;
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+  color: #ffffff;
+  margin: 3%;
+  text-align: left;
+}
+
+.contact_column--title {
+  font-weight: bold;
+  font-size: 22px;
+  margin: 40px 0px;
+}
+
+.contact_column--address {
+  font-weight: bold;
+  font-size: 22px;
+  margin: 40px 0px;
+}
+
+.contact_column--contact {
+  font-size: 22px;
+}

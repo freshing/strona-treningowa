@@ -1,11 +1,19 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway');
 
+@media all and (-webkit-min-device-pixel-ratio: 2), all and ( min--moz-device-pixel-ratio: 2), all and ( -o-min-device-pixel-ratio: 2/1), all and ( min-device-pixel-ratio: 2) {
+    .footer-up {
+      background-image: url('../assets/header@2x.png');
+    }
+  }
+
 .header {
   height: 1000px;
-  background-image: url('../assets/landing-page.png');
-  object-fit: contain;
+  background-image: url('../assets/header.png');
+  background-size: cover;
+  background-repeat: no-repeat;
   text-align: center;
   font-family: 'Raleway', sans-serif;
+  box-sizing: border-box;
 }
 
 .header-space{

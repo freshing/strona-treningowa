@@ -2,25 +2,19 @@ a{
   text-decoration: none;
 }
 
-.landing-up {
+.about {
   height: 568px;
   background-color: #fafafb;
   border: 2px;
   padding: 30px;
   font-family: 'Raleway', sans-serif;
+  box-sizing: border-box;
 }
-
-.landing-down {
-  padding: 50px;
-  height: 3814px;
-  font-family: 'Raleway', sans-serif;
-}
-
-.content{
+.about_content{
   text-align: center;
 }
 
-.content-text {
+.about_content--text {
   width: 50%;
   height: 128px;
   font-size: 16px;
@@ -31,7 +25,7 @@ a{
   margin-bottom: 40px;
 }
 
-.content-title {
+.about_content--title {
   height: 33px;
   margin: 50px;
   font-size: 28px;
