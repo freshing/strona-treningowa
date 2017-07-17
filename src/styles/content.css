@@ -1,7 +1,7 @@
 .content {
   padding: 50px;
   height: 700px;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Raleway';
   display: flex;
   justify-content: center;
   align-items:center;

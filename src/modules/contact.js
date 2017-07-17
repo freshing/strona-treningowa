@@ -52,11 +52,11 @@ module.exports = class Contact extends React.Component {
             <div className="contact_row">
               <div className="contact_element">
                 <b>ZOBACZ MAPĘ</b>
-                <a href="#" onClick={onClick}><img src={map} /></a>
+                <a href="#" className="contact_icon" onClick={onClick}><img src={map} /></a>
               </div>
               <div className="contact_element">
                 <b>ROZPOCZNIJ CZAT</b>
-                <a href="#" onClick={onClick}><img src={chat} /></a>
+                <a href="#" className="contact_icon" onClick={onClick}><img src={chat} /></a>
               </div>
           </div>
         </div>

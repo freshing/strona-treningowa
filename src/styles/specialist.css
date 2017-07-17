@@ -25,6 +25,7 @@ src: url('../assets/Snickles.ttf');
   text-align: center;
   width: 85%;
   margin: 1%;
+  margin-top: 50px;
   font-size: 16px;
   line-height: 1.88;
   display: inline-block;
@@ -47,7 +48,7 @@ src: url('../assets/Snickles.ttf');
   display: flex;
   justify-content: center;
   align-items:center;
-  margin: 40px 0px;
+  margin-top: 40px;
 }
 
 .specjalist_image--active {

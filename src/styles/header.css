@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css?family=Raleway');
-
 @media all and (-webkit-min-device-pixel-ratio: 2), all and ( min--moz-device-pixel-ratio: 2), all and ( -o-min-device-pixel-ratio: 2/1), all and ( min-device-pixel-ratio: 2) {
     .footer-up {
       background-image: url('../assets/header@2x.png');
@@ -30,16 +28,17 @@
   width: 100%;
   text-align: center;
   color: #ffffff;
-  margin: 30px;
-  margin-top: 30%;
+  overflow: auto;
 }
 
 .header_text--big {
   font-size: 42px;
   font-weight: 500;
+  margin-top: 300px;
 }
 
 .header_text--small {
   font-size: 22px;
   font-weight: 300;
+  margin: 50px 0px;
 }
