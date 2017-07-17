@@ -2,32 +2,36 @@
   height: 706px;
   background-color: #453d5f;
   text-align: center;
-  padding: 5% 10%;
   box-sizing: border-box;
+  padding-top: 5%;
 }
 
-.contact_column {
+.contact_container {
+  width: 80%;
+  font-family: 'Raleway', sans-serif;
+  color: #ffffff;
+  text-align: center;
+  display: inline-block;
+}
+
+.contact_row {
+  width: 100%;
+  text-align: center;
+  display: inline-block;
+}
+
+.contact_element{
   width: 25%;
   float: left;
-  font-family: 'Raleway', sans-serif;
-  font-size: 16px;
-  color: #ffffff;
-  margin: 3%;
   text-align: left;
+  margin: 1% 3%;
 }
 
-.contact_column--title {
+.contact_element--title {
   font-weight: bold;
   font-size: 22px;
-  margin: 40px 0px;
 }
 
-.contact_column--address {
-  font-weight: bold;
-  font-size: 22px;
-  margin: 40px 0px;
-}
-
-.contact_column--contact {
+.contact_element--big {
   font-size: 22px;
 }
