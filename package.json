@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack-dev-server",
-    "start": "start http://localhost:8080/"
+    "build": "webpack",
+    "start": "start file://../dist/index.html"
   },
   "repository": {
     "type": "git",

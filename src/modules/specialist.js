@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import '../styles/specialist.css';
 import Alicja from '../assets/Alicja.png';
 import Barbara from '../assets/Barbara.png';

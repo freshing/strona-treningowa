@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import '../styles/about.css';
 
 module.exports = class About extends React.Component {

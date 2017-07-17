@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import '../styles/contact.css';
 import map from '../assets/map.svg';
 import chat from '../assets/chat.svg';
