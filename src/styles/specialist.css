@@ -19,16 +19,45 @@ src: url('../assets/Snickles.ttf');
   text-align: center;
   color: #ffffff;
   padding: 5% 15%;
+}
+
+.specialist_description {
+  text-align: center;
+  width: 85%;
+  margin: 1%;
+  font-size: 16px;
+  line-height: 1.88;
+  display: inline-block;
+}
+
+.specialist_column {
+  text-align: left;
+  width: 48%;
+  float: left;
+  margin: 1%;
+  display: inline-block;
+}
+
+.specjalist_header {
   font-size: 28px;
   font-weight: bold;
 }
 
-.specialist_description {
-  text-align: left;
-  width: 43%;
-  float: left;
-  margin: 3%;
-  font-size: 16px;
-  line-height: 1.88;
-  display: inline-block;
+.specjalist_image {
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  margin: 40px 0px;
+}
+
+.specjalist_image--active {
+  width: 80px;
+  height: 80px;
+  margin: 10px 20px;
+}
+
+.specjalist_image--inactive {
+  width: 65px;
+  height: 65px;
+  opacity: 0.5;
 }

@@ -1,5 +1,5 @@
 .main{
-  width: 90%;
+  width: 85%;
   margin: auto;
 }
 
@@ -35,13 +35,15 @@
 
 .snickles{
   font-family: 'Snickles', sans-serif;;
-  font-size: 36px;
+
 }
 
 .snickles--light{
   color: #ffffff;
+  font-size: 36px;
 }
 
 .snickles--dark{
   color: #6b66bf;
+  font-size: 24px;
 }

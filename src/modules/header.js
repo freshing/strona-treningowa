@@ -13,15 +13,15 @@ module.exports = class Header extends React.Component {
           <a className="button_navigate" href="#">Podstrona</a>
           <a className="button_navigate" href="#"><img src={search} /></a>
         </div>
-        <div className="header_space">
+        <div className="header_text">
+          <div className="header_text header_text--big">
+            Miejskie Centrum Informacji Społecznej w Krakowie
+          </div>
+          <div className="header_text header_text--small">
+            miejsce, w którym uzyskasz informację i pomoc w zakresie szeroko rozumianej polityki społecznej.
+          </div>
+          <a href="#" onClick={this.props.onClick}><div className="button_contact button_contact--light">SKONTAKTUJ SIĘ Z NAMI</div></a>
         </div>
-        <div className="header_text header_text--big">
-          Miejskie Centrum Informacji Społecznej w Krakowie
-        </div>
-        <div className="header_text header_text--small">
-          miejsce, w którym uzyskasz informację i pomoc w zakresie szeroko rozumianej polityki społecznej.
-        </div>
-        <a href="#" onClick={this.props.onClick}><div className="button_contact button_contact--light">SKONTAKTUJ SIĘ Z NAMI</div></a>
       </div>
     )
   }
