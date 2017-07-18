@@ -1,14 +1,12 @@
 .contact {
-  height: 706px;
   background-color: #453d5f;
   text-align: center;
   box-sizing: border-box;
-  padding-top: 5%;
+  padding: 5% 0;
 }
 
 .contact_container {
   width: 80%;
-  font-family: 'Raleway', sans-serif;
   color: #ffffff;
   text-align: center;
   display: inline-block;

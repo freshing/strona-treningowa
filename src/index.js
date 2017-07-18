@@ -13,10 +13,10 @@ class App extends React.Component {
   render() {
     return (
       <div className="main">
-        <Header onClick={this.onClick}/>
-        <About onClick={this.onClick}/>
-        <Content onClick={this.onClick}/>
-        <Specialist onClick={this.onClick}/>
+        <Header onClick={this.onClick} />
+        <About onClick={this.onClick} />
+        <Content onClick={this.onClick} />
+        <Specialist onClick={this.onClick} />
         <Contact />
         <Footer />
       </div>

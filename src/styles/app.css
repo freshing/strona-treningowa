@@ -3,6 +3,7 @@
 .main{
   width: 85%;
   margin: auto;
+  font-family: 'Raleway', sans-serif;
 }
 
 .button_contact{
@@ -13,7 +14,7 @@
   font-size: 13px;
   font-weight: 600;
   letter-spacing: 1px;
-  margin-top: 40px;
+  margin: 40px 0px;
 }
 
 .button_contact--dark {

@@ -3,13 +3,12 @@ a{
 }
 
 .about {
-  height: 568px;
   background-color: #fafafb;
   border: 2px;
   padding: 30px;
-  font-family: 'Raleway', sans-serif;
   box-sizing: border-box;
 }
+
 .about_content{
   text-align: center;
 }

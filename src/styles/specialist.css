@@ -3,16 +3,8 @@ font-family: 'Snickles';
 src: url('../assets/Snickles.ttf');
 }
 
-@media all and (-webkit-min-device-pixel-ratio: 2), all and ( min--moz-device-pixel-ratio: 2), all and ( -o-min-device-pixel-ratio: 2/1), all and ( min-device-pixel-ratio: 2) {
-    .specialist {
-      background-image: url('../assets/specialist@2x.png');
-    }
-  }
-
 .specialist {
-  height: 706px;
   background-image: url('../assets/specialist.png');
-  font-family: 'Raleway', sans-serif;
   background-size: cover;
   background-repeat: no-repeat;
   box-sizing: border-box;
@@ -33,7 +25,7 @@ src: url('../assets/Snickles.ttf');
 
 .specialist_column {
   text-align: left;
-  width: 48%;
+  width: 100%;
   float: left;
   margin: 1%;
   display: inline-block;
@@ -61,4 +53,16 @@ src: url('../assets/Snickles.ttf');
   width: 65px;
   height: 65px;
   opacity: 0.5;
+}
+
+@media screen and (min-width: 1200px) {
+  .specialist_column {
+    width: 48%;
+  }
+}
+
+@media all and (-webkit-min-device-pixel-ratio: 2), all and ( min--moz-device-pixel-ratio: 2), all and ( -o-min-device-pixel-ratio: 2/1), all and ( min-device-pixel-ratio: 2) {
+  .specialist {
+    background-image: url('../assets/specialist@2x.png');
+  }
 }

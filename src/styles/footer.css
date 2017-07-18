@@ -1,9 +1,7 @@
 .footer {
-  height: 200px;
   background-color: #312f38;
   padding-top: auto;
-  padding-right: 100px;
-  font-family: 'Raleway', sans-serif;
+  padding-right: 5%;
   box-sizing: border-box;
   display: flex;
   justify-content:flex-end;
