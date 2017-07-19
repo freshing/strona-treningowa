@@ -55,7 +55,7 @@ src: url('../assets/Snickles.ttf');
   opacity: 0.5;
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 900px) {
   .specialist_column {
     width: 48%;
   }

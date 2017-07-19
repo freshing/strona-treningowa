@@ -61,7 +61,7 @@
   color: #93969d;
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 900px) {
   .content_column {
     width: 50%;
   }

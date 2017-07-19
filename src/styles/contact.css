@@ -20,24 +20,19 @@
   display: inline-block;
 }
 
-.contact_row {
-  width: 100%;
-  text-align: center;
-  display: inline-block;
-}
-
 .contact_column--text{
-  height: 250px;
+  min-height: 250px;
+  margin-bottom: 2%;
 }
 
 .contact_column--title {
   font-weight: bold;
   font-size: 22px;
-  height: 70px;
+  min-height: 90px;
 }
 
 .contact_column--feature {
-  margin-top: 2%;
+  margin-bottom: 4%;
 }
 
 .contact_column--big {
