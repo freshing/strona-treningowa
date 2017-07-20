@@ -1,19 +1,13 @@
 .footer {
-  height: 200px;
   background-color: #312f38;
-  padding-top: auto;
-  padding-right: 100px;
-  font-family: 'Raleway', sans-serif;
+  padding: 3% 5%;;
   box-sizing: border-box;
-  display: flex;
-  justify-content:flex-end;
-  align-items:center;
+  text-align: right;
 }
 
 .footer_navigate {
-  display: flex;
-  justify-content:flex-end;
-  align-items:center;
+  box-sizing: border-box;
+  text-align: right;
 }
 
 .footer--back {
@@ -21,9 +15,9 @@
   height: 60px;
   border-radius: 5px;
   border: solid 2px #ffffff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  padding: 22px;
   color: #ffffff;
-  margin: 50px;
+  box-sizing: border-box;
+  display: inline-block;
+  margin: 30px;
 }
